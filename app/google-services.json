@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323655678068",
+    "firebase_url": "https://myacademia-5c7df.firebaseio.com",
+    "project_id": "myacademia-5c7df",
+    "storage_bucket": "myacademia-5c7df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323655678068:android:c419537c2448555df57921",
+        "android_client_info": {
+          "package_name": "com.taki.myacademia1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323655678068-e2a5d5jvpt6juh5u8nd2hd20emclhegk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taki.myacademia1",
+            "certificate_hash": "42669fa4f59f8ed9caf1e3221c8bc3c9d5c72898"
+          }
+        },
+        {
+          "client_id": "323655678068-0215qr9f94r0gh4tik50vlr76903b2lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1n_P2jOO1UJBXWhu7YuotcJ0A-S4qGQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323655678068-0215qr9f94r0gh4tik50vlr76903b2lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
