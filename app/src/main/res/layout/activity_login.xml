@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:fontFamily="@font/alfa_slab_one"
+        android:fontFamily="sans-serif-black"
         android:text="@string/welcome"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/signemail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/pass"
+        android:id="@+id/signpass"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -75,7 +75,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/signemail"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -92,7 +92,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/pass"
+        app:layout_constraintTop_toBottomOf="@id/signpass"
         app:layout_constraintVertical_bias="0.0" />
 
 
@@ -100,6 +100,9 @@
         android:id="@+id/reg_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="auto"
         android:padding="10dp"
         android:text="@string/new_here_click_here_to_register"
         android:textAlignment="center"

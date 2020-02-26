@@ -119,6 +119,14 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
+
+        LoginLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Login.class));
+                finish();
+            }
+        });
 /*
                 tRegButton.setOnClickListener(new View.OnClickListener(){
                     @Override
