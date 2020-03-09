@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">MyAcademia</string>
+    <string-array name="streamdrop">
+        <item>FY BSCIT</item>
+        <item>SY BSCIT</item>
+        <item>TY BSCIT</item>
+    </string-array>
     <string name="welcome">Welcome</string>
     <string name="enter_your_details">Enter Your Details</string>
     <string name="email_address">Email Address</string>
@@ -15,4 +20,8 @@
     <string name="sign_out">SIGN OUT</string>
     <string name="re_type_password">Re-type Password</string>
     <string name="hello">Hello</string>
+    <string name="notices">Notices</string>
+    <string name="title">Title:</string>
+    <string name="body">Body:</string>
+    <string name="post">Post</string>
 </resources>
